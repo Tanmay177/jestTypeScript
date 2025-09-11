@@ -7,9 +7,9 @@
 // console.log(`The result is ${a + b}`);
 // console.log(result);
 
-function myFunc<T>(a : T): T{
+export function myFunc<T>(a: T): T {
     return a;
 }
 
-let tanmayfunction = myFunc<number>(100);
-console.log(`Result for the generic function is : ${tanmayfunction}`);
+const exampleResult = myFunc<number>(100);
+console.log(`Result for the generic function is : ${exampleResult}`);
