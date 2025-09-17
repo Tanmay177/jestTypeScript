@@ -6,7 +6,7 @@ describe('UserService', () => {
 
   beforeEach(() => {
     userService = new UserService();
-  });
+  }); 
 
   describe('createUser', () => {
     it('should create a user successfully with valid data', async () => {
