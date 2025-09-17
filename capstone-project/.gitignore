@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+package-lock.json
+README.md
+
+# Jest cache/output
+.jest/
+
+
+
+
