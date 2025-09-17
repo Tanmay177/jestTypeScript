@@ -6,7 +6,6 @@ dist/
 build/
 coverage/
 
-package-lock.json
 README.md
 
 # Jest cache/output
