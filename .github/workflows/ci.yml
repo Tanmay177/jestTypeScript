@@ -1,9 +1,9 @@
 on:
     push:
-      branches: miniproject
+      branches: CapstoneProject
     pull_request:
-      branches: miniproject
- 
+      branches: CapstoneProject
+
   jobs:
     build-and-test:
       runs-on: ubuntu-latest
@@ -23,8 +23,6 @@ on:
       - name: Build TypeScript
         run: npm run build # Ensure "build" script exists
   
-      - name: Clean
-        run: npm run clean # Ensure to clean test.js files
   
       - name: Run Tests
         run: npm test
